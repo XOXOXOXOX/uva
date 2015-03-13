@@ -43,7 +43,6 @@ void backtrack(int pos){
                     a[pos]=i;
                     b[i]=false;
                     backtrack(pos+1);
-                    backtrack(pos+1);
                     b[i]=true;
                 }
             }
